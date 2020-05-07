@@ -1,0 +1,25 @@
+Instrucciones para colocar en uso la aplicacion gestioncitas
+
+1. debe tener instaldo el servidor xampp
+ * si no lo tiene instalado debes descargarlo d ela pagina https://www.apachefriends.org/es/index.html
+   y proceder con la instalacion.
+2. luego de tenerlo instalado, debe verificar el dico C y buscar una carpeta que se llama xampp.
+3. Abrir la carpeta xampp del dico c y luego bucar la opcion llamada xampp-control y doble darle clic
+4. cuando se abra la cosola para adminitrar los servidores , se debe activar el servidor Apache y mysql
+   (para activar estos servidores se debe dat clic en el boton start de cada servidor)
+5. para verificar que esten iniciado , va a parece en la misma consola que los servidores iniciados estaran subrallado en verde.
+6. abrir el servidor mysql para verificar nombre y usuari0 de servidor.
+7.   para verificar estos datos se da clic sobre el boton llamado Admin de la misma consola y de inmediato se abrira una pagina en el navegador ,
+    la cual corresponde al servidor mysql.
+8.  cuando se abra la pagina en el navegador (servidor de bd) , en la opcion llamada cuentas de usuario podemos ver los usuarios y el nombre del servidor
+9. luego de verificar nombre de servidor  y usuario, se debe colocar estos datos en el archivo llamado conexion, que esta
+   en la ruta carpeta  gestioncitas\php\conexion.php
+    nota: estos mismos datos se debe colocar en los arcivos :
+    GestionCitas\frmApp\Editarcita.php linea linea 98;
+    GestionCitas\frmApp\Editarcitausuario.php linea 98;
+10. luego de modificar los archivos, de debe colocar la carpeta llamada gestioncitas en la ruta  C:\xampp\htdocs
+11. para abiri la aplicacion se debe hacer el llamado desde  de la ruta mas el archivo de inicio, ejemplo:
+    http://127.0.0.1/APPs/gestionCitas/index.php
+
+
+
