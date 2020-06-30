@@ -1,0 +1,53 @@
+http://127.0.0.1/APPs/api_Alquiler/SingIn.php
+{	
+	"username": "Luism712",
+	"identification": "1020423625"	
+}
+http://127.0.0.1/APPs/api_Alquiler/SingUp.php
+{	
+	"name": "luis",
+	"lastname": "montoya",
+	"email": "Luismontoya712@gmail.net",
+	"typeid": "cc",
+	"username": "Luis712",
+	"identification": "12345678",
+	"password": "1234567896@#"
+}
+http://127.0.0.1/APPs/api_Alquiler/addproperty.php
+{	
+	"title": "casa 404",
+	"type": "familiar",
+	"addess": "garehhh",
+	"rooms": "3",
+	"price": "70000",
+	"area": "45",
+	"userid": "87"
+}
+http://127.0.0.1/APPs/api_Alquiler/deleteproperty.php
+{	
+	"propertyId": "3",
+	"userId": "10000"
+}
+http://127.0.0.1/APPs/api_Alquiler/editproperty.php
+{	
+	"title": "casa blanca",
+	"type": "hostal",
+	"addess": "garehhh",
+	"rooms": "3",
+	"price": "100000",
+	"area": "90",
+	"userid": "52",
+	"propertyId": "3"
+}
+http://127.0.0.1/APPs/api_Alquiler/getproperties.php
+{	
+
+	"userId": "87"
+}
+http://127.0.0.1/APPs/api_Alquiler/listproperties.php
+http://127.0.0.1/APPs/api_Alquiler/getSortedUserProperties.php
+{	
+
+	"userId": "87"
+}
+http://127.0.0.1/APPs/api_Alquiler/getSortedProperties.php
